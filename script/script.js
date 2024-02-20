@@ -4,6 +4,8 @@ submitButton.addEventListener("click", () => {
   let inpValue = document.getElementById("water_tank_input").value;
   const filledWaterHeight = inpValue.split(",").map(filledWater => +filledWater);
   const ansTag = document.getElementById("answerTag");
+  const answerDiv = document.querySelector(".answer");
+  answerDiv.style.display = "block";
   const waterFilled = calculateFilledWaterUnit(filledWaterHeight);
   ansTag.innerText = waterFilled;
   const bAw = showBricksAndWater(filledWaterHeight);
