@@ -19,8 +19,20 @@ Based on these inputs, the system calculates and displays the following outputs:
 
 ## Implementation
 
-The implementation details include algorithms for water level prediction, flow rate control, and emergency handling mechanisms for overflow or dry run conditions.
+The implementation details include algorithms for water level prediction, giving visual representation
 
 ## Visualization
 
 Below is a visualization of the Water Tank Problem:
+
+### before giving inputs
+
+![Water Tank Visualization Before Giving Input](/images/before.png)
+
+### after giving inputs
+
+![Water Tank Visualization After Giving Input](/images/after.png)
+
+## Conclusion
+
+This project showcases the application of software engineering principles to solve practical problems, emphasizing algorithmic thinking, system design, and user interface development.
